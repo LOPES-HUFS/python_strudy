@@ -3,4 +3,4 @@ def make_pizza(size, *toppings):
     for topping in toppings:
         print(f"- {topping}")
 
-make_pizza(12, "페파로니","추가 치즈")
+# make_pizza(12, "페파로니","추가 치즈")

@@ -34,3 +34,11 @@ completed_models = []
 print_models(unprinted_designs[:], completed_models)
 show_completed_model(completed_models)
 print(f"원본:{unprinted_designs}")
+
+def test(year, location):
+    result = year + location+ ".csv"
+    return result
+
+temp = test("2019", "강남")
+
+print(temp)
